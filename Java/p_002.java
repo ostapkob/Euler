@@ -1,4 +1,4 @@
-class equalFibonaci {
+class p_002 {
   static double fib(int n) {
     double x = 0;
     double y = 1;
