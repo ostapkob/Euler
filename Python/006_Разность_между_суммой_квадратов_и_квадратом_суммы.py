@@ -8,7 +8,7 @@
 import matplotlib.pyplot as plt
 from pprint import pprint
 from functools import reduce
-from MyFunctions import print_lists
+from MyFunction import print_lists
 
 
 def sum_square(num):

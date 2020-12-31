@@ -3,7 +3,7 @@
 #include <math.h>  
 
 using namespace std; 
-  
+
 double fib(int n) {
   double x = 0;
   double y = 1;
@@ -15,7 +15,6 @@ double fib(int n) {
   }
   return y;
 }
-
 
 int main() 
 { 
@@ -39,7 +38,5 @@ int main()
   end = clock();
   cout << total << endl;
   cout << (end - start) / ((double) CLOCKS_PER_SEC) ;
-
-
   return 0; 
 } 
