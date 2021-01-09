@@ -28,7 +28,7 @@ let max_i;
 for (let i=0; i<ls.length-len_dev+1; i++) {
   tmp_dev = 1
   for (let j=0; j<len_dev; j++) {
-    // process.stdout.write(ls[i+j] + '*')
+    process.stdout.write(ls[i+j] + '*')
     tmp_dev*= Number(ls[i+j])
   }
   max_dev>tmp_dev || (max_dev = tmp_dev) || (max_i = i)

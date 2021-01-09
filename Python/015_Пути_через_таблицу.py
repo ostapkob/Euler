@@ -1,4 +1,4 @@
-size = 20
+size = 7 
 mas = [1]
 for i in range(1,size):
     mas.insert(0, 1)
