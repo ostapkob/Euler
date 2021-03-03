@@ -29,3 +29,4 @@ findNeihbors =function(line, el) {
 n = n.reverse()
 indexsNeihbors = findNeihbors(0,3)
 
+//not solve
