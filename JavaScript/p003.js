@@ -1,10 +1,10 @@
 // Простые делители числа 13195 - это 5, 7, 13 и 29.
 // Каков самый большой делитель числа 600851475143, являющийся простым числом?
 function isSimple(n) {
-    x = 3
+    x = 3n
     while (x * x <= n) {
-        x += 2
-        if (n % x == 0) {
+        x += 2n
+        if (n % x == 0n) {
             return false
         }
     }
@@ -23,6 +23,7 @@ function maxSimpleDivider(number) {
 }
 
 
-console.log(maxSimpleDivider(13195))
+console.log(maxSimpleDivider(131950n))
+//console.log(maxSimpleDivider(13195n))
 // console.log(maxSimpleDivider(600851475143))
 console.log(Date())
